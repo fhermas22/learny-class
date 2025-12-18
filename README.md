@@ -24,7 +24,7 @@ A modern online learning platform built with **Laravel 12**, **Blade**, **Tailwi
 
 1. **Clone the project**
 ```bash
-git clone <repository-url>
+git clone https://github.com/fhermas22/learny-class
 cd learnyclass
 ```
 
@@ -58,6 +58,7 @@ learnyclass/
 ├── app/                          # Application code
 ├── public/
 │   ├── logo.svg                 # Unique logo
+│   ├── images/                  # Images directory
 │   └── js/
 │       ├── cart.js              # Cart management
 │       └── interactions.js       # Interactions
