@@ -1,4 +1,4 @@
-<div class="bg-white rounded-xl shadow-md overflow-hidden card-hover animate-scale-in">
+<a href="/course/{{ $course['id'] }}" class="block bg-white rounded-xl shadow-md overflow-hidden card-hover animate-scale-in hover:shadow-lg transition-shadow duration-300">
     <!-- Image -->
     <div class="relative overflow-hidden h-48">
         <img src="{{ asset($course['image']) }}" alt="{{ $course['title'] }}" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
@@ -28,10 +28,10 @@
         <!-- Price and button -->
         <div class="flex items-center justify-between pt-4 border-t border-gray-100">
             <span class="text-2xl font-bold text-primary">XOF {{ $course['price'] }}</span>
-            <button onclick="addToCart('{{ $course['id'] }}', '{{ $course['title'] }}', {{ $course['price'] }}, '{{ $course['image'] }}', '{{ $course['instructor'] }}')"
+            <button onclick="event.preventDefault(); addToCart('{{ $course['id'] }}', '{{ $course['title'] }}', {{ $course['price'] }}, '{{ $course['image'] }}', '{{ $course['instructor'] }}')"
                     class="px-4 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 hover:shadow-lg transition-all duration-300">
                 Ajouter
             </button>
         </div>
     </div>
-</div>
+</a>
