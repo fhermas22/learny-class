@@ -102,7 +102,7 @@
                             </div>
                             <div class="flex justify-between">
                                 <span class="text-gray-700">Sous-total</span>
-                                <span class="font-semibold text-gray-900">$${total.toFixed(2)}</span>
+                                <span class="font-semibold text-gray-900">XOF ${total.toFixed(2)}</span>
                             </div>
                             <div class="flex justify-between">
                                 <span class="text-gray-700">Frais de traitement</span>
@@ -113,7 +113,7 @@
                         <div class="mb-6">
                             <div class="flex justify-between items-center">
                                 <span class="text-lg font-bold text-gray-900">Total</span>
-                                <span class="text-3xl font-bold text-primary">$${total.toFixed(2)}</span>
+                                <span class="text-3xl font-bold text-primary">XOF ${total.toFixed(2)}</span>
                             </div>
                         </div>
 
