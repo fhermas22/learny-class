@@ -20,5 +20,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/cart.js') }}"></script>
+    <script src="{{ asset('js/interactions.js') }}"></script>
 </body>
 </html>
